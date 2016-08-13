@@ -24,7 +24,7 @@ Both variables are represented as structures of the following fields:
 - `count`: The number `N` of images
 - `width`: The width `W` of each image
 - `height`: The height `H` of each image
-- `images`: A `W` by `H` by `N` array of all images
+- `images`: A `H` by `W` by `N` array of all images
 - `labels`: An array of `N` values describing the image label
 
 The `images` are encoded as doubles with a range of `0`..`1`, where `0` is background and `1` is foreground. The original MNIST dataset interprets these as `0` for white and `1` for black.
